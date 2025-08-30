@@ -1,5 +1,9 @@
 FROM python:3.10-alpine3.21
+ infra
+LABEL MANTAINER="Rafael A Toscano"
+=======
 LABEL MANTAINER="Rafael Antonio Toscano"
+main
 
 WORKDIR /app
 
